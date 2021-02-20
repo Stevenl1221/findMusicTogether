@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> c42f9af9898690b47233c3cb14a82810f789d570
 
 public class test {
     public static void main (String[] args)

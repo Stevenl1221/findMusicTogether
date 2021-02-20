@@ -5,7 +5,7 @@ public class Username
     {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter your Spotify Username: ");
+        System.out.print("Enter your Spotify Username: ");
         String username = scan.nextLine();
 
         System.out.print("Your username is: ");
