@@ -60,10 +60,6 @@ return (
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 
-
-<div>
-<a href="https://www.google.com/" class="btn btn-primary btn-lg centered">Better Button</a>
-</div>
   
 <div class="progress"></div> 
 
