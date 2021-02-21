@@ -319,7 +319,7 @@ b, strong {
   font-weight: 700;
 }
 
-body {
+.body {
   position: relative;
   width: 100%;
   min-height: auto;
