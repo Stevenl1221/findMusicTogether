@@ -4,14 +4,13 @@ import './App.css';
 import Test from './components/test';
 
 
-
   function App({ age }) {
     return (
       <div className="App">
-        <Welcome name="mr steven" age={9 * 2}/>
+        {/* <Welcome name="mr steven" age={9 * 2}/>
         <SomeText />
         <MoreText />
-        <MoreText />
+        <MoreText /> */}
         <Test moveHandler={myMove} />
       </div>
     );
