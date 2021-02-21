@@ -59,6 +59,7 @@ return (
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 
+<a href="https://www.spotify.com/us/" class="btn btn-primary btn-lg centered">Click Me!</a>
   
 <div class="progress"></div> 
 
@@ -86,6 +87,10 @@ return (
       <a href="/" target="_blank"><i class="fa fa-flickr"></i></a>
    </li>
 </ul>
+
+<div class="body">
+
+</div>
 
 </div>
 );
