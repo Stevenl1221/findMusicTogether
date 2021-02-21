@@ -8,40 +8,36 @@ return (
 <nav class="navbar navbar-default navbar-fixed-top affix-top" id="siteNav" role="navigation">
   <div class="container">
     <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+    {/* <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">
+    </button> */}
+
+    {/* <a class="navbar-brand" href="#">
       <span class="glyphicon glyphicon-fire">
       </span>
       "LOGO"
-    </a>
+    </a> */}
+
     </div>
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active">
+        
           <a href="#">Home</a>
-        </li>
-        <li>
+        
+        
         <a href="#">Products</a>
-        </li>
-        <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        
+        
+        {/* <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
           Services 
           <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="about-us">
-							<li><a href="#">Engage</a></li>
-							<li><a href="#">Pontificate</a></li>
-							<li><a href="#">Synergize</a></li>
-					</ul>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
+          </a> */}
+       
+          <a href="https://linktr.ee/FindMusicTogether">Contact</a>
+        
       </ul>
     </div>
   </div>
@@ -56,7 +52,7 @@ return (
 </div>
 
 
-<a href="https://www.google.com/" class="btn btn-primary btn-lg centered">Better Button</a>
+<a href="https://www.spotify.com/us/" class="btn btn-primary btn-lg centered">Click Me!</a>
   
 <div class="progress"></div> 
 
