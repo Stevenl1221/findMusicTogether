@@ -62,7 +62,7 @@ body {
 
 .btn-primary {
   border-color: yellowgreen;
-  color: #ffffff;
+  color: transparent;
   background-color: yellowgreen;
   transition: all .35s;
 }
@@ -96,81 +96,6 @@ a:hover {
   border-color: rgb(23, 22, 22)
 }
 
-@media (min-width: 768px) {
-  .navbar-default {
-    border-color: rgba(255,255,255,.3);
-    background-color: transparent;
-  }
-}
-
-.navbar-default {
-  border-color: rgba(34,34,34,.05);
-  background-color: #fff;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-}
-
-.navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-
-@media (min-width: 768 px) {
-  .navbar-fixed-top {
-    border-radius: 0;
-  }
-}
-
-.navbar-fixed-top {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-  
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
-
-.navbar-default.navbar-toggle .icon-bar {
-  background-color: #888;
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-  margin-top: 4px;
-}
-
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-}
 
 .glyphicon {
   position: relative;
@@ -319,12 +244,15 @@ b, strong {
   font-weight: 700;
 }
 
-.body {
-  position: relative;
+body {
+  position: -ms-page;
   width: 100%;
-  min-height: auto;
+  min-height: fit-content;
   text-align: center;
   color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   background-image: url('/src/images/sunset.jpg');
   background-position: center;
   -webkit-background-size: cover;
