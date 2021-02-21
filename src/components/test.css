@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   min-height: 500vh;
-  background-color: rgb(12, 135, 63);
+  background-color: #1a9b65;
   animation: body 1s linear;
 }
 @keyframes body {
@@ -12,17 +12,18 @@ body {
 }
 
 .progress {
-  height: 3px;
+  height: 5px;
   width: 0%;
-  background-color: #fff;
+  background-color: rgb(60, 48, 230);
   position: fixed;
   top: 0;
   left: 0;
   animation: progress 1s linear;
 }
-@keyframes progress {
+
+@keyframes progress{
   to {
-    background-color: rgb(20, 255, 226);
+    background-color: rgb(255, 136, 0);
     width: 100%;
   }
 }
