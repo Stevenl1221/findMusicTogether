@@ -219,7 +219,7 @@ a:hover {
 }
 
 .instagram {
-  background: #d483dc;
+  background: #dd4b39;
   color: white;
 }
 
@@ -317,4 +317,18 @@ section p.detail-paragraph {
 }
 b, strong {
   font-weight: 700;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url('/src/images/sunset.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }

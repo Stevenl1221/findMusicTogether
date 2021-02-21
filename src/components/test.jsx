@@ -4,7 +4,6 @@ export default function something ({moveHandler}) {
 return (
 
 <div>
-
 <nav class="navbar navbar-default navbar-fixed-top affix-top" id="siteNav" role="navigation">
   <div class="container">
     <div class="navbar-header">
