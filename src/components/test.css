@@ -76,7 +76,7 @@ body {
   vertical-align: middle;
   touch-action: manipulation;
   cursor: pointer;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none; */
   background-image: none;
   border: 1px solid transparent;
 
@@ -250,13 +250,19 @@ body {
   min-height: fit-content;
   text-align: center;
   color: #fff;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;  
   background-size: cover;
   background-image: url('/src/images/sunset.jpg');
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover; */
   background-size: cover;
   -o-background-size: cover;
+}
+
+.body{
+  font-size: 1000%;
+  color: white;
+  transform: translate(1.5%, 5%);
 }
