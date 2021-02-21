@@ -12,6 +12,7 @@ import Test from './components/test';
         <MoreText />
         <MoreText /> */}
         <Test moveHandler={myMove} />
+        <p>hello</p>
       </div>
     );
   }  
