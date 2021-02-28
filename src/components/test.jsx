@@ -21,7 +21,7 @@ return (
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 
-<a href="https://linktr.ee/FindMusicTogether" class="btn btn-primary btn-lg centered">Click Me!</a>
+<a href="https://vibebean.netlify.app/" class="btn btn-primary btn-lg centered">Click Me!</a>
   
 <div class="progress"></div> 
 
